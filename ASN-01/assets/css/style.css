@@ -1,0 +1,276 @@
+html {
+	height: 100%;
+}
+
+body {
+	display: block;
+	height: 100%;
+	background-image: url(../../assets/images/pixel_weave.png);
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 36px;
+	padding: 21px 26px 21px 26px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 34px;
+	font-weight: bold;
+	padding: 26px 0px 10px 0px;
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 26px 0px 10px 0px;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;		
+}
+
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #cccccc;
+	text-decoration: none;
+}
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+img {
+	width: 120%;
+}
+
+hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #dddddd;
+    margin: 1em 0;
+    padding: 0px; 
+}
+
+.main {
+	margin: auto;
+	width: 90%;
+	height: 100%;
+/*	margin-bottom: 5%;*/
+}
+
+.header {
+	display: block;
+	width: 100%;
+	height: 80px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: white;
+	margin-bottom: 30px;
+	border-color: #cccccc;
+	border-style: none none solid none;
+	border: 0px 0px 1px 0px;
+}
+
+.matchwidth {
+	margin: auto;
+	width: 960px;
+}
+
+.logo {
+	padding: 1px 26px 1px 26px;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	float: left;
+	margin: auto;
+	background-color: #4aaaa5;
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+	margin: 30px 0px 0px 0px;
+}
+
+#about {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#portfolio {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contact {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* --------Center Area----------*/
+.entire {
+	margin: auto;
+	display: block;
+	clear: both;
+	width: 960px;
+}
+
+.middle {
+	padding: 0px 20px 40px 20px;
+	display: inline-block;
+	float: left;
+	width: 66%;/*620px; 650-padding*/
+	margin-right: 4%;
+	background-color: white;
+	margin-bottom: 32px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+}
+
+#profpic {
+	width: 35%;
+	float: left;
+	margin-top: 18px;
+	margin-right: 20px;
+}
+
+.sidebar {
+	padding: 0px 20px 20px 20px;
+	display: inline-block;
+	float: left;
+	width: 26%/*240px; 270-padding*/
+	margin-right: 4%;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+}
+
+.connect {
+	max-width: 200px;
+}
+
+.socialtable {
+ 	max-width: 200px;
+ 	margin-top: 25px;
+ 	margin-left: 20px;
+ 	margin-bottom: 20px;
+}
+
+#git {
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+}
+
+#linkedin {
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+}
+
+#stackoverflow {
+	float: left;
+	width: 25%;
+	margin-right: 5%;
+}
+
+.footer {
+	clear: both;
+	padding: 35px 0px 35px 0px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #666666;
+	border-color: #4aaaa5;
+	border-style: solid none none none;
+	border: 8px 0px 0px 0px;
+}
+
+/* ---------- Contact Form Styling ----------- */
+
+input[type=text], select, textarea {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+}
+
+input[type=submit] {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.row {
+	display: block;
+	clear: both;
+	padding: 15px 0px 15px 0px;
+}
+
+#port-01 {
+	display: inline-block;
+	float: left;
+	width: 44%;
+	height: 167px;
+	margin-right: 3%;
+	position: relative;
+}
+
+#port-02 {
+	display: inline-block;
+	float: right;
+	width: 44%;
+	height: 167px;
+	margin-left: 3%;
+	position: relative;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+}
+
+.imgtext {
+	position: absolute;
+	left: 0;
+	top: 60%;
+	width: 100%;
+}
+
+span {
+	color: white;
+	background-color: #4aaaa5;
+	width: 100%;
+}
